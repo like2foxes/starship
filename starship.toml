@@ -1,0 +1,31 @@
+format = """
+$username\
+$hostname\
+$localip\
+$directory\
+$git_branch\
+$git_status\
+$cmd_duration\
+$fill\
+$dotnet\
+$lua\
+$python\
+$rust\
+$javascript\
+$nodejs
+$line_break\
+$character\
+"""
+
+[character]
+success_symbol = '[➜](bold green) '
+error_symbol = '[✗](bold red) '
+
+[git_status]
+ahead = '⇡${count}'
+diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+behind = '⇣${count}'
+
+[fill]
+symbol = '-'
+style = 'bold green'
