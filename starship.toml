@@ -12,3 +12,5 @@ error_symbol = '[✗](bold red) '
 ahead = '⇡${count}'
 diverged = '⇕⇡${ahead_count}⇣${behind_count}'
 behind = '⇣${count}'
+
+command_timeout = 1000
