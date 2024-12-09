@@ -4,6 +4,8 @@ format = """
 $all\
 """
 
+command_timeout = 1000
+
 [character]
 success_symbol = '[➜](bold green) '
 error_symbol = '[✗](bold red) '
@@ -12,5 +14,3 @@ error_symbol = '[✗](bold red) '
 ahead = '⇡${count}'
 diverged = '⇕⇡${ahead_count}⇣${behind_count}'
 behind = '⇣${count}'
-
-command_timeout = 1000
